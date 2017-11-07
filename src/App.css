@@ -1,0 +1,284 @@
+{box-sizing: border-box;}
+/*---------------FONTS-----------------*/
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Source+Sans+Pro');
+/*---------------FONTS-----------------*/
+
+/*---------------ERROR-----------------*/
+.error {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 250px;
+    text-align: center;
+}
+
+.nomatch {
+  color: red;
+  font-size: 50px;
+}
+/*---------------ERROR-----------------*/
+
+/*---------------HEADER-----------------*/
+
+.header-container {
+  background-color: black;
+  width: 100%;
+  margin: 0;
+  display: flex;
+}
+
+.section1 {
+  display: flex;
+  padding-top: 15px;
+  }
+
+.logo {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.left-menu {
+  display: flex;
+  padding-top: 12px;
+  padding-bottom: 10px;
+  padding-left: 0;
+  list-style-type: none;
+  color: white;
+}
+
+.left-menu a {
+  color:white;
+  padding: 0 11px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+}
+
+.left-menu a:hover {
+  color: grey;
+  text-decoration-color: black;
+}
+
+.nav-item {
+font-size: 15px;
+color: white;
+}
+
+.section2 {
+  display: flex;
+  padding-top: 15px;
+  }
+
+.center-menu {
+  display: flex;
+  padding-top: 12px;
+  padding-bottom: 10px;
+  padding-left: 0;
+  list-style-type: none;
+  color: white;
+  }
+
+.center-menu a {
+  color: #2196f3;
+  padding: 0 9px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  }
+
+  .center-menu a:hover {
+    text-decoration: none;
+  }
+
+.fa-cart-arrow-down {
+  background-color: #ffc107;
+  color: white;
+  padding: 30px 15px;
+}
+
+.tc {
+  padding-right: 25px;
+  border-right: 2px solid white;
+}
+
+.last {
+  padding: 0;
+  border-right: 2px solid white;
+}
+/*---------------HEADER-----------------*/
+
+/*----------------LOGO------------------*/
+.logo-bottom {
+  width: 100px;
+  margin: 0 auto;
+}
+
+.logo-bottom img{
+  width: 100px;
+}
+
+.logo-bottom hr{
+  width: 40%;
+
+}
+
+/*----------------LOGO------------------*/
+/*---------------FOOTER-----------------*/
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  width: 40%;
+  margin: 0 auto;
+}
+
+.footer-menu1 {
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+  padding-left: 0;
+  list-style-type: none;
+  color: black;
+}
+
+.footer-menu1 a:link {
+  color: grey;
+}
+
+.footer-menu1 a:hover {
+  text-decoration: none;
+}
+
+.footer-menu1 li {
+  color: red;
+}
+
+.fa-instagram {
+color: black;
+}
+
+.media-icons {
+  font-size: 22px;
+  letter-spacing: 6px;
+  color: black;
+}
+
+.media-icons a:hover {
+  text-decoration: none;
+}
+
+.red-word {
+  color: red;
+}
+/*---------------FOOTER-----------------*/
+/*---------------HOME------------------*/
+
+.sub-header {
+position: relative;
+
+}
+
+.sub-header img{
+  display: block;
+  width: 100%;
+  height: 400px;
+}
+
+.title {
+  position: absolute;
+  color: white;
+  top: 50%;
+  Left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.title h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 45px;
+}
+
+.title h4 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  margin: 8px 0;
+  }
+
+  .sub-title-hom h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    margin: 35px 0 8px 0;
+  }
+
+  .sub-title-hom h4{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    color: grey;
+    margin: 5px 0;
+  }
+
+  .items-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .extract-just {
+      width: 33%;
+      border: 2px solid grey;
+      margin: 5px 0;
+      
+  }
+
+  .items-container img {
+    width: 320px;
+    height: 240px;
+  }
+
+/*---------------HOME------------------*/
+/*-------------CATEGORY----------------*/
+
+.body-container-cat {
+  width: 98%;
+  margin: 0 auto;
+}
+
+.sub-header-cat {
+  position: relative;
+}
+
+.sub-header-cat img{
+  display: block;
+  width: 100%;
+  height: 400px;
+  margin: 0 auto;
+}
+/*-------------CATEGORY----------------*/
+/*---------------TERMS-----------------*/
+
+.terms-container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.terms-container h1 {
+  font-family: 'Playfair Display', serif;
+  padding: 30px 0 20px 0;
+}
+
+.terms-container p {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+  line-height: 40px;
+}
+
+.terms-container h5 {
+  font-weight: bold;
+  padding: 35px 0;
+}
+
+/*---------------TERMS-----------------*/
+/*-----------ALL-PRODUCTS--------------*/
+
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+}
+/*-----------ALL-PRODUCTS--------------*/
