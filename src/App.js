@@ -4,8 +4,7 @@ import {Switch, Route} from 'react-router-dom';
 import noMatch from './resources/NoMatch';
 import HomeView from './resources/HomeView';
 import Terms from './resources/Terms';
-import Category from './resources/Category';
-import DynamicProduct from './resources/DynamicProduct';
+
 import AllProducts from './resources/AllProducts';
 import Product from './resources/Product';
 import DynamicView from './resources/DynamicView';
@@ -19,8 +18,6 @@ class App extends Component {
             <Route exact path="/terms" component={Terms} />
             <Route exact path="/all-products" component={AllProducts} />
             <Route exact path="/product" component={Product} />
-            <Route exact path="/product/:id" component={DynamicProduct} />
-            <Route exact path="/category/:id" component={Category} />
             <Route path="/category/:id" component={DynamicView} />
             <Route component={noMatch} />
           </Switch>
